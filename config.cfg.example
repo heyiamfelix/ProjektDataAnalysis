@@ -1,0 +1,15 @@
+[GLOBAL]
+subreddit=duisburg
+
+[REDDIT]
+client_id=<REDDIT_CLIENT_ID_HIER_EINFÜGEN>
+client_secret=<REDDIT_CLIENT_SECRET_HIER_EINFÜGEN>
+user_agent=<USER_AGENT_HIER_EINFÜGEN>
+
+[PREPARE]
+english_treshold=0.5
+word_treshold=3
+
+[ANALYSE]
+n_topics=5
+vectorization_method=tfidf
