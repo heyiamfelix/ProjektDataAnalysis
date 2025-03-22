@@ -1,0 +1,36 @@
+639 Beiträge aus der Datei duisburg.csv wurden geladen
+228 Beiträge aus der Datei duisburg_clean.csv wurden geladen
+
+Beitrags-Typen und -Autoren werden analysiert
+LSA Analyse wird durchgeführt
+LDA Analyse wird durchgeführt
+
+------------------ ERGEBNISSE (mit der Vektorisierungsmethode 'bow') ------------------
+
+Beitrags-Typen nach Häufigkeit:
+text: 369
+image: 147
+link: 85
+video: 38
+
+Häufigste Beitrags-Autoren:
+unknown_or_deleted: 44
+Astrid_is_here: 38
+rattenfurz: 27
+Bamischeibe23: 9
+BescheuerterName: 8
+
+LSA Themen mit Coherence-Werten:
+Thema 0: ['duisburg', 'impfung', 'finden', 'uhr', 'marientor', 'eintragen', 'kollege', 'kommen', 'standort', 'impfunge'] - Coherence: 0.6321019122075298
+Thema 1: ['jemand', 'gerne', 'duisburg', 'geben', 'jahr', 'gehen', 'suchen', 'zusammen', 'impfung', 'schon'] - Coherence: 0.5206828421952594
+Thema 2: ['duisburg', 'jemand', 'kommen', 'monat', 'geben', 'zurueck', 'zimmer', 'machen', 'uhr', 'packen'] - Coherence: 0.31706817098385065
+Thema 3: ['duisburg', 'zimmer', 'jemand', 'gehen', 'monat', 'umgebung', 'marburg', 'suchen', 'uhr', 'schon'] - Coherence: 0.31668807262030996
+Thema 4: ['duisburg', 'zurueck', 'typ', 'usw', 'danach', 'scheinen', 'packen', 'monat', 'fragen', 'euro'] - Coherence: 0.631061092601932
+
+LDA Themen mit Coherence-Werten:
+Thema 0: ['duisburg', 'jemand', 'zusammen', 'gut', 'suchen', 'gehen', 'geben', 'jahr', 'gerne', 'waere'] - Coherence: 0.6478500755064234
+Thema 1: ['jemand', 'duisburg', 'gerne', 'geben', 'gut', 'gehen', 'schon', 'jahr', 'leider', 'finden'] - Coherence: 0.5145950864858538
+Thema 2: ['duisburg', 'finden', 'impfung', 'zeit', 'geben', 'schon', 'suchen', 'uhr', 'marientor', 'kaufen'] - Coherence: 0.24965328358125755
+Thema 3: ['duisburg', 'finden', 'jemand', 'neu', 'impfung', 'zusammen', 'suchen', 'uhr', 'frage', 'gut'] - Coherence: 0.30425890397565436
+Thema 4: ['duisburg', 'jemand', 'zusammen', 'geben', 'gehen', 'gerne', 'weiss', 'werden', 'leider', 'kommen'] - Coherence: 0.44018599682359366
+

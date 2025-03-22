@@ -1,0 +1,36 @@
+639 Beiträge aus der Datei duisburg.csv wurden geladen
+228 Beiträge aus der Datei duisburg_clean.csv wurden geladen
+
+Beitrags-Typen und -Autoren werden analysiert
+LSA Analyse wird durchgeführt
+LDA Analyse wird durchgeführt
+
+------------------ ERGEBNISSE (mit der Vektorisierungsmethode 'tfidf') ------------------
+
+Beitrags-Typen nach Häufigkeit:
+text: 369
+image: 147
+link: 85
+video: 38
+
+Häufigste Beitrags-Autoren:
+unknown_or_deleted: 44
+Astrid_is_here: 38
+rattenfurz: 27
+Bamischeibe23: 9
+BescheuerterName: 8
+
+LSA Themen mit Coherence-Werten:
+Thema 0: ['impfung', 'duisburg', 'uhr', 'finden', 'marientor', 'eintragen', 'kollege', 'standort', 'jemand', 'apotheke'] - Coherence: 0.504610821975829
+Thema 1: ['impfung', 'jemand', 'marientor', 'gut', 'gerne', 'kollege', 'zusammen', 'eintragen', 'uhr', 'standort'] - Coherence: 0.26575442185640996
+Thema 2: ['jemand', 'weiss', 'gut', 'sagen', 'gehoert', 'moechten', 'kennt', 'neu', 'freuen', 'jahr'] - Coherence: 0.3246749814213087
+Thema 3: ['weiss', 'gut', 'suchen', 'zugaenglich', 'frei', 'vielen', 'bzw', 'schauen', 'voraus', 'willkommen'] - Coherence: 0.31960253341170347
+Thema 4: ['schauen', 'sagen', 'gehoert', 'duisser', 'gehen', 'neu', 'erfahrung', 'empfehlen', 'schon', 'stadtteil'] - Coherence: 0.37227783816192317
+
+LDA Themen mit Coherence-Werten:
+Thema 0: ['duisburg', 'weiss', 'jemand', 'wg', 'gut', 'suchen', 'leute', 'vielen', 'finden', 'kennt'] - Coherence: 0.4599553121824146
+Thema 1: ['donnerstag', 'duisburg', 'warum', 'sagen', 'neu', 'gehoert', 'warnsiren', 'erfahrung', 'landschaftspark', 'gehen'] - Coherence: 0.43841710655430033
+Thema 2: ['jemand', 'duisburg', 'geben', 'impfung', 'ganz', 'beispiel', 'sagen', 'gehen', 'highfield', 'ja'] - Coherence: 0.31794637816007987
+Thema 3: ['duisburg', 'jemand', 'kurz', 'umgebung', 'schoen', 'zusammen', 'schauen', 'hochfeld', 'essen', 'machen'] - Coherence: 0.3441684582593574
+Thema 4: ['gut', 'jemand', 'zusammen', 'suchen', 'finden', 'tipp', 'neu', 'geben', 'duisburg', 'lassen'] - Coherence: 0.38194006107924555
+
