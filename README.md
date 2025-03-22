@@ -4,6 +4,9 @@ Windows 11<br>
 Python 3.12.6<br>
 
 # Installation
+
+Öffne eine neue Eingabeaufforderung und navigiere in das Verzeichnis des Projekts.<br><br>
+
 Erstelle eine neue virtuelle Umgebung:
 ```cmd
 python -m venv virtual
@@ -25,23 +28,40 @@ python -m spacy download de_core_news_md
 ```
 
 # Ausführung
+Im Anschluss können die folgenden Skripte ausgeführt werden (es wird die Eingabeaufforderung aus den Installationsschritten benötigt):<br><br>
 
-Verbinde dich mit der Reddit-API und speichere die Daten in einer .csv-Datei:
+download.py: Verbindet sich mit der Reddit-API und lädt die Daten herunter und speichert diese in einer .csv-Datei<br>
 ```cmd
 python download.py
 ```
 
-Daten vorbereiten und in einer weiteren .csv-Datei speichern:
+prepare.py: Bereitet die Daten auf, indem sie bereinigt und in einer weiteren .csv-Datei gespeichert werden<br>
 ```cmd
 python prepare.py
 ```
 
-Analysiere die Daten und gebe die Ergebnisse aus:
+analyze.py: Analysiert die Daten und erstellt Themen, die Ausgabe erfolgt in der Konsole<br>
 ```cmd
 python analyze.py
 ```
 
+# Herunterladen des Projekts
+
+Option 1: Herunterladen des Projekts als ZIP-Datei<br>
+Klicke auf den grünen "Code"-Button in GitHub und wähle "Download ZIP". Entpacke anschließend das heruntergeladene ZIP Verzeichnis<br><br>
+Option 2: Klonen des Projekts mit Git<br>
+Öffne die Kommandozeile und führe den folgenden Befehl aus:
+```cmd
+git clone https://github.com/heyiamfelix/ProjektDataAnalysis.git
+```
+Option 3: Herunterladen des Projekts mit dem Tool GitHub CLI<br>
+Öffne die Kommandozeile und führe den folgenden Befehl aus:
+```cmd
+gh repo clone heyiamfelix/ProjektDataAnalysis
+```
+
 # Konfiguration
+
 Die Konfiguration erfolgt über die Datei `config.cfg`. Hier können die folgenden Parameter angepasst werden:
 ```cfg
 [GLOBAL]
