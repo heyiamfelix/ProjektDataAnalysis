@@ -3,6 +3,21 @@ Die folgenden Anforderungen wurden getestet, andere Konfigurationen könnten ebe
 Windows 11<br>
 Python 3.12.6<br>
 
+# Herunterladen des Projekts
+
+Option 1: Herunterladen des Projekts als ZIP-Datei<br>
+Klicke auf den grünen "Code"-Button in GitHub und wähle "Download ZIP". Entpacke anschließend das heruntergeladene ZIP Verzeichnis<br><br>
+Option 2: Klonen des Projekts mit Git<br>
+Öffne die Kommandozeile und führe den folgenden Befehl aus:
+```cmd
+git clone https://github.com/heyiamfelix/ProjektDataAnalysis.git
+```
+Option 3: Herunterladen des Projekts mit dem Tool GitHub CLI<br>
+Öffne die Kommandozeile und führe den folgenden Befehl aus:
+```cmd
+gh repo clone heyiamfelix/ProjektDataAnalysis
+```
+
 # Installation
 
 Öffne eine neue Eingabeaufforderung und navigiere in das Verzeichnis des Projekts.<br><br>
@@ -43,21 +58,6 @@ python prepare.py
 analyze.py: Analysiert die Daten und erstellt Themen, die Ausgabe erfolgt in der Konsole<br>
 ```cmd
 python analyze.py
-```
-
-# Herunterladen des Projekts
-
-Option 1: Herunterladen des Projekts als ZIP-Datei<br>
-Klicke auf den grünen "Code"-Button in GitHub und wähle "Download ZIP". Entpacke anschließend das heruntergeladene ZIP Verzeichnis<br><br>
-Option 2: Klonen des Projekts mit Git<br>
-Öffne die Kommandozeile und führe den folgenden Befehl aus:
-```cmd
-git clone https://github.com/heyiamfelix/ProjektDataAnalysis.git
-```
-Option 3: Herunterladen des Projekts mit dem Tool GitHub CLI<br>
-Öffne die Kommandozeile und führe den folgenden Befehl aus:
-```cmd
-gh repo clone heyiamfelix/ProjektDataAnalysis
 ```
 
 # Konfiguration
