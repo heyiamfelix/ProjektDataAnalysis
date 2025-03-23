@@ -74,11 +74,11 @@ client_secret= # Client-Secret des Reddit-Entwicklerkontos
 user_agent= # User-Agent zum senden von Anfragen an die Reddit-API
 
 [PREPARE]
-english_treshold= # Prozentualer Anteil der englischen Wörter in einem Text ab dem dieser als englisch betrachtet wird
-word_treshold= # Minimale Anzahl an Wörtern in einem Text
+english_treshold= # Prozentualer Anteil der englischen Wörter in einem Text ab dem dieser als englisch betrachtet wird, innerhalb dieses Projekts 0.5
+word_treshold= # Minimale Anzahl an Wörtern in einem Text, innerhalb dieses Projekts 3
 
 [ANALYSE]
-n_topics= # Anzahl der zu erstellenden Themen
+n_topics= # Anzahl der zu erstellenden Themen, innerhalb dieses Projekts 5
 vectorization_method= # Verwendete Methode zur Vektorisierung der Texte, "tfidf" oder "bow"
 ```
 
