@@ -62,7 +62,8 @@ python analyze.py
 
 # Konfiguration
 
-Die Konfiguration erfolgt über die Datei `config.cfg`. Hier können die folgenden Parameter angepasst werden:
+Die Konfiguration erfolgt über die Datei `config.cfg`, welche zwingend im Verzeichnis des Projekts vorhanden und konfiguriert sein muss (eine config.cfg.example Datei ist bereitgestellt und kann umbenannt und konfiguriert werden).
+Hier können die folgenden Parameter angepasst werden:
 ```cfg
 [GLOBAL]
 subreddit= # Name des Subreddits, innerhalb dieses Projekts "duisburg"
