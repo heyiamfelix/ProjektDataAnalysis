@@ -80,3 +80,41 @@ word_treshold= # Minimale Anzahl an Wörtern in einem Text
 n_topics= # Anzahl der zu erstellenden Themen
 vectorization_method= # Verwendete Methode zur Vektorisierung der Texte, "tfidf" oder "bow"
 ```
+
+# Ergebnisse
+
+## LSA mit BoW (analyze_result_bow.txt)
+| Thema | Coherence Wert | Wörter | Vermutetes Thema |
+|-|-|-|-|
+| Thema 0 | 0.6321 | duisburg, impfung, finden, uhr, marientor, eintragen, kollege, kommen, standort, impfunge | Impfungen |
+| Thema 1 | 0.5207 | jemand, gerne, duisburg, geben, jahr, gehen, suchen, zusammen, impfung, schon | Soziale Kontakte / Impfungen |
+| Thema 2 | 0.3171 | duisburg, jemand, kommen, monat, geben, zurueck, zimmer, machen, uhr, packen | Wohnungssuche |
+| Thema 3 | 0.3167 | duisburg, zimmer, jemand, gehen, monat, umgebung, marburg, suchen, uhr, schon | Wohnungssuche |
+| Thema 4 | 0.6311 | duisburg, zurueck, typ, usw, danach, scheinen, packen, monat, fragen, euro   | Rückkehr / Alltag / Kosten |
+
+## LDA mit BoW (analyze_result_bow.txt)
+| Thema | Coherence Wert | Wörter | Vermutetes Thema |
+|-|-|-|-|
+| Thema 0 | 0.6479 | duisburg, jemand, zusammen, gut, suchen, gehen, geben, jahr, gerne, waere | Gemeinschaft / Treffen |
+| Thema 1 | 0.5146 | jemand, duisburg, gerne, geben, gut, gehen, schon, jahr, leider, finden | Kontakte |
+| Thema 2 | 0.2497 | duisburg, finden, impfung, zeit, geben, schon, suchen, uhr, marientor, kaufen | Impfungen / Termine |
+| Thema 3 | 0.3043 | duisburg, finden, jemand, neu, impfung, zusammen, suchen, uhr, frage, gut | Impfungen |
+| Thema 4 | 0.4402 | duisburg, jemand, zusammen, geben, gehen, gerne, weiss, werden, leider, kommen | Kommunikation / Treffen |
+
+## LSA mit TF-IDF (analyze_result_tfidf.txt)
+| Thema | Coherence Wert | Wörter | Vermutetes Thema |
+|-|-|-|-|
+| Thema 0 | 0.5046 | impfung, duisburg, uhr, finden, marientor, eintragen, kollege, standort, jemand, apotheke | Impfungen / Termine |
+| Thema 1 | 0.2658 | impfung, jemand, marientor, gut, gerne, kollege, zusammen, eintragen, uhr, standort | Impfungen |
+| Thema 2 | 0.3247 | jemand, weiss, gut, sagen, gehoert, moechten, kennt, neu, freuen, jahr | Fragen und Empfehlungen |
+| Thema 3 | 0.3196 | weiss, gut, suchen, zugaenglich, frei, vielen, bzw, schauen, voraus, willkommen | Zugänglichkeit / Informationen |
+| Thema 4 | 0.3723 | schauen, sagen, gehoert, duisser, gehen, neu, erfahrung, empfehlen, schon, stadtteil | Stadtteile |
+
+## LDA mit TF-IDF (analyze_result_tfidf.txt)
+| Thema | Coherence Wert | Wörter | Vermutetes Thema |
+|-|-|-|-|
+| Thema 0 | 0.4600 | duisburg, weiss, jemand, wg, gut, suchen, leute, vielen, finden, kennt | WG-Suche |
+| Thema 1 | 0.4384 | donnerstag, duisburg, warum, sagen, neu, gehoert, warnsiren, erfahrung, landschaftspark, gehen | Veranstaltungen |
+| Thema 2 | 0.3179 | jemand, duisburg, geben, impfung, ganz, beispiel, sagen, gehen, highfield, ja | Impfungen / Konzerte |
+| Thema 3 | 0.3442 | duisburg, jemand, kurz, umgebung, schoen, zusammen, schauen, hochfeld, essen, machen | Kommunikation / Treffen |
+| Thema 4 | 0.3819 | gut, jemand, zusammen, suchen, finden, tipp, neu, geben, duisburg, lassen | Tipps und Hilfe |
